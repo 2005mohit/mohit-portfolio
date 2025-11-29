@@ -71,7 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const roles = [
       "a AI Developer",
       "a ML Developer",
-      "a MCA Student",
       "a Cybersecurity Enthusiast"
     ];
 
@@ -118,3 +117,4 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(typeLoop, 500);
   }
 });
+
