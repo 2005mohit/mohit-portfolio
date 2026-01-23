@@ -795,7 +795,7 @@ body {
 }
 
 .nav__logo-img {
-  height: 42px;
+  height: 25px;
   width: auto;
   object-fit: contain;
   transition: transform 0.25s ease;
@@ -822,4 +822,5 @@ body {
   width: auto;
   opacity: 0.85;
 }
+
 
