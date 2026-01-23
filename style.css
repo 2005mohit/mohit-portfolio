@@ -787,3 +787,39 @@ body {
     align-items: flex-start;
   }
 }
+
+/* ===== NAV LOGO IMAGE ===== */
+.nav__logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo-img {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.25s ease;
+}
+
+.nav__logo-img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .nav__logo-img {
+    height: 34px;
+  }
+}
+
+/* ===== FOOTER LOGO ===== */
+.footer__brand {
+  display: flex;
+  align-items: center;
+}
+
+.footer__logo {
+  height: 32px;
+  width: auto;
+  opacity: 0.85;
+}
+
